@@ -1,0 +1,167 @@
+Autoloading ffmpeg-4.1.1-gcc-8.2.0-yhg25hja
+Autoloading yasm-1.3.0-gcc-8.2.0-3rvnlklk
+Autoloading hdf5-1.10.6-gcc-8.2.0-qmsevzqr
+Autoloading openmpi-3.1.6-gcc-8.2.0-iwyxvbej
+Autoloading hwloc-1.11.11-gcc-8.2.0-6qowl4xi
+Autoloading libpciaccess-0.13.5-gcc-8.2.0-6ix45ncm
+Autoloading cuda-10.2.89-gcc-8.2.0-ydlu6tdl
+Autoloading libxml2-2.9.10-gcc-8.2.0-amrw6dxn
+Autoloading xz-5.2.5-gcc-8.2.0-pole6xvj
+Autoloading libiconv-1.16-gcc-8.2.0-fqpzd6gt
+Autoloading zlib-1.2.11-gcc-8.2.0-2famardg
+Autoloading numactl-2.0.12-gcc-8.2.0-5ndbizel
+Autoloading slurm-18-08-6-2-gcc-8.2.0-3a5rqhdq
+Autoloading ucx-1.4.0-gcc-8.2.0-u4kwkmab
+Autoloading gdrcopy-1.3-gcc-8.2.0-clvpgtfp
+Autoloading rdma-core-20-gcc-8.2.0-n7l4qljz
+Autoloading libnl-3.3.0-gcc-8.2.0-zq2p2dr5
+Autoloading python-3.8.3-gcc-8.2.0-2fkhskcj
+Autoloading sqlite-3.31.1-gcc-8.2.0-izknovbz
+Autoloading readline-8.0-gcc-8.2.0-ustvssxo
+Autoloading ncurses-6.2-gcc-8.2.0-onh7rphc
+Autoloading bzip2-1.0.8-gcc-8.2.0-xnavnah7
+Autoloading expat-2.2.9-gcc-8.2.0-4uijjrjq
+Autoloading libbsd-0.10.0-gcc-8.2.0-6zixjj2x
+Autoloading openssl-1.1.1g-gcc-8.2.0-cr54apn4
+Autoloading gettext-0.20.2-gcc-8.2.0-coanxqpw
+Autoloading tar-1.32-gcc-8.2.0-fpuj7al7
+Autoloading tcl-8.6.8-gcc-8.2.0-7acxe4sa
+Autoloading tk-8.6.8-gcc-8.2.0-bxeq5jbf
+Autoloading libx11-1.6.7-gcc-8.2.0-333hmtxq
+Autoloading kbproto-1.0.7-gcc-8.2.0-dvx2x6hn
+Autoloading xextproto-7.3.0-gcc-8.2.0-tmjlgkzf
+Autoloading libxcb-1.13-gcc-8.2.0-gumn6ywq
+Autoloading libxdmcp-1.1.2-gcc-8.2.0-k5dpb7e5
+Autoloading libxau-1.0.8-gcc-8.2.0-ytipqmqa
+Autoloading xproto-7.0.31-gcc-8.2.0-m3rykqni
+Autoloading libpthread-stubs-0.4-gcc-8.2.0-4eu6esgb
+Autoloading libxscrnsaver-1.2.2-gcc-8.2.0-2btgvsh3
+Autoloading libxext-1.3.3-gcc-8.2.0-eya6nx4b
+Autoloading libxft-2.3.2-gcc-8.2.0-wv6fyzn3
+Autoloading freetype-2.10.1-gcc-8.2.0-ddzslhql
+Autoloading libpng-1.6.37-gcc-8.2.0-diro4ytf
+Autoloading fontconfig-2.13.1-gcc-8.2.0-vc5ao6r7
+Autoloading libuuid-1.0.3-gcc-8.2.0-meo76c4e
+Autoloading font-util-1.3.2-gcc-8.2.0-3sexxpdr
+Autoloading libxrender-0.9.10-gcc-8.2.0-3cux3pkr
+Autoloading renderproto-0.11.1-gcc-8.2.0-e5o5yonp
+Autoloading libffi-3.3-gcc-8.2.0-u3phmora
+Autoloading gdbm-1.18.1-gcc-8.2.0-qy5adikd
+Autoloading libjpeg-turbo-2.0.3-gcc-8.2.0-7it3s75a
+Autoloading fftw-3.3.8-gcc-8.2.0-yehqezwt
+Autoloading latte-1.2.1-gcc-8.2.0-enfslork
+Autoloading openblas-0.3.9-gcc-8.2.0-dt7mehmj
+Autoloading netcdf-c-4.7.3-gcc-8.2.0-dewchcye
+LAMMPS (12 Dec 2018)
+  using 1 OpenMP thread(s) per MPI task
+Reading data file ...
+  orthogonal box = (0.492288 0.501197 -30.1639) to (78.4077 78.3988 30.1639)
+  2 by 2 by 1 MPI processor grid
+  reading atoms ...
+  22829 atoms
+WARNING: Using 'neigh_modify every 1 delay 0 check yes' setting during minimization (src/min.cpp:168)
+Ewald initialization ...
+  using 12-bit tables for long-range coulomb (src/kspace.cpp:321)
+  G vector (1/distance) = 0.466664
+  estimated absolute RMS force accuracy = 2.22498e-05
+  estimated relative force accuracy = 1.54517e-06
+  KSpace vectors: actual max1d max3d = 138168 44 352484
+                  kxmax kymax kzmax  = 44 44 34
+Neighbor list info ...
+  update every 1 steps, delay 0 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 8.35
+  ghost atom cutoff = 8.35
+  binsize = 4.175, bins = 19 19 15
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair buck/coul/long, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d/newton
+      bin: standard
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 0
+Per MPI rank memory allocation (min/avg/max) = 115.2 | 115.2 | 115.2 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0            0   -683769.87            0   -683769.87   -6963.9083 
+       7            0   -683783.68            0   -683783.68   -7043.2619 
+Loop time of 48.1828 on 4 procs for 7 steps with 22829 atoms
+
+99.9% CPU use with 4 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+        -683769.872405     -683783.089343     -683783.675539
+  Force two-norm initial, final = 30.8563 6.35992
+  Force max component initial, final = 10.6999 1.13924
+  Final line search alpha, max atom move = 0.0396367 0.0451556
+  Iterations, force evaluations = 7 11
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.33822    | 0.33964    | 0.34178    |   0.3 |  0.70
+Kspace  | 46.867     | 47.171     | 47.801     |   5.4 | 97.90
+Neigh   | 0.031954   | 0.032407   | 0.032969   |   0.2 |  0.07
+Comm    | 0.0053303  | 0.63397    | 0.9382     |  46.7 |  1.32
+Output  | 0          | 0          | 0          |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 0.005624   |            |       |  0.01
+
+Nlocal:    5707.25 ave 5714 max 5699 min
+Histogram: 1 0 1 0 0 0 0 0 0 2
+Nghost:    6983 ave 7005 max 6962 min
+Histogram: 1 0 0 1 0 1 0 0 0 1
+Neighs:    496784 ave 497690 max 495823 min
+Histogram: 1 0 1 0 0 0 0 1 0 1
+
+Total # of neighbors = 1987136
+Ave neighs/atom = 87.0444
+Neighbor list builds = 3
+Dangerous builds not checked
+WARNING: No fixes defined, atoms won't move (src/verlet.cpp:55)
+Ewald initialization ...
+  using 12-bit tables for long-range coulomb (src/kspace.cpp:321)
+  G vector (1/distance) = 0.466664
+  estimated absolute RMS force accuracy = 2.22498e-05
+  estimated relative force accuracy = 1.54517e-06
+  KSpace vectors: actual max1d max3d = 138168 44 352484
+                  kxmax kymax kzmax  = 44 44 34
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 7
+  Time step     : 0.001
+Per MPI rank memory allocation (min/avg/max) = 116.4 | 116.4 | 116.4 Mbytes
+Step Temp PotEng TotEng Press Volume Fnorm Fmax Xlo Xhi Ylo Yhi Zlo Zhi 
+       7            0   -683783.68   -683783.68   -7043.2619       366155     6.359924    1.1392387   0.49228806    78.407712   0.50119663    78.398803   -30.163895    30.163895 
+       8            0   -683783.68   -683783.68   -7043.2619       366155     6.359924    1.1392387   0.49228806    78.407712   0.50119663    78.398803   -30.163895    30.163895 
+Loop time of 4.03594 on 4 procs for 1 steps with 22829 atoms
+
+Performance: 0.021 ns/day, 1121.094 hours/ns, 0.248 timesteps/s
+100.0% CPU use with 4 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.027297   | 0.027567   | 0.0277     |   0.1 |  0.68
+Kspace  | 3.9079     | 3.9391     | 3.9936     |   1.6 | 97.60
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0.00040075 | 0.054611   | 0.085665   |  13.9 |  1.35
+Output  | 0.014571   | 0.014596   | 0.014626   |   0.0 |  0.36
+Modify  | 1.538e-06  | 2.6507e-06 | 3.7631e-06 |   0.0 |  0.00
+Other   |            | 4.384e-05  |            |       |  0.00
+
+Nlocal:    5707.25 ave 5714 max 5699 min
+Histogram: 1 0 1 0 0 0 0 0 0 2
+Nghost:    6983 ave 7005 max 6962 min
+Histogram: 1 0 0 1 0 1 0 0 0 1
+Neighs:    496789 ave 497677 max 495813 min
+Histogram: 1 0 1 0 0 0 0 0 1 1
+
+Total # of neighbors = 1987155
+Ave neighs/atom = 87.0452
+Neighbor list builds = 0
+Dangerous builds not checked
+Total wall time: 0:01:00
