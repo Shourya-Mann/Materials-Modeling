@@ -1,0 +1,7 @@
+The Annealing branch contains 3 main files. 
+Hetero-Bulk contains the data for the structure to be read by LAMMPS.
+in-1.SrTiO3-annealing is the input file where interatomic potentials are defined.
+Moreover, NVE and NPT fixes are defined to simulate Thermal Annealing of the system.
+It shoudld be noted that only one output file with the final anealed structure is dumped. 
+the slurm-mp.sh file contains the information to submit the previous files as a job on a supercomputer cluster.
+I used RIT's clusture availble to me as a student.
