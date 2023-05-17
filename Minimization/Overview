@@ -1,0 +1,8 @@
+The minimization branch consists of 9 files, 5 of which were obtainted after running a constant volume energy minimization on a perovskite heterostructure that was previously minimized as a pure structure allowing for volume change to let relaxation occur at the interface to form misfit dislocations. 
+The two dump files returned the heterostructure as an atomic coordinates and a XYZ file.
+Hetero_Bulk-2-La was the LAMMPS data file containing the initial stucture that was minimized. 
+along with the atomic masses of each type of atom present. 
+the in.STO file is the minimization with constant volume. (to only allow the dopant atoms to relax at the interface) 
+in-Vfree.STO is a the same minimazation, however it allows for the volume of the entire structure to change. (this minimizaiton should be run before inducing any dopants to the system. 
+The STO.output file records any error that may have occured during the simulation, it is also similar to the log.lammps file, which returns the final volume, potential energy, total energy, Pressure and the length of force vector for all atoms. 
+however the log.lammps file is the actual output file to be used for data collection. The output(1).xyz was obtained by cutting out interface layer from the rest of the heterostructure using basic python code, this was done to analyse the effect of the dopant atoms on the atomic structure at the interface.
